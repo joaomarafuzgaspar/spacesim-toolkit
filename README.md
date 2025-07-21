@@ -1,4 +1,4 @@
-# 🛰 SpaceSim-Toolkit
+# 🛰 Space Simulation Toolkit
 
 ## 🎯 Features
 - Simulate **spacecraft dynamics** with **high-fidelity** numerical propagator from [TUDAT](https://docs.tudat.space/en/latest/) using **Python**
@@ -16,16 +16,16 @@
 - 💥 [References](#-references)
 
 ## 💡 Description
-**SpaceSim-Toolkit** is an open-source simulation framework designed for space enthusiasts, researchers, and engineers. It provides a comprehensive suite of tools for simulating spacecraft dynamics, orbital mechanics, and advanced estimation algorithms in various space missions.
+**spacesim-toolkit** is an open-source simulation framework designed for space enthusiasts, researchers, and engineers. It provides a comprehensive suite of tools for simulating spacecraft dynamics, orbital mechanics, and advanced estimation algorithms in various space missions.
 
 This repository implements the research work presented in [[1]](#ref-1), providing a complete framework for decentralized state estimation in multi-agent systems, with specific applications to low Earth orbit satellite formations.
 
 ## 💿 Installation
-To setup the virtual environment for **SpaceSim-Toolkit** follow these steps:
+To setup the virtual environment for **spacesim-toolkit** follow these steps:
 ```bash
 # Clone the repository
-$ git clone git@github.com:joaomarafuzgaspar/SpaceSim-Toolkit.git
-$ cd SpaceSim-Toolkit
+$ git clone git@github.com:joaomarafuzgaspar/spacesim-toolkit.git
+$ cd spacesim-toolkit
 
 # Create the virtual environment and activate it
 $ conda env create -f environment.yml
@@ -114,10 +114,10 @@ $ python src/main.py -v -f 1 -a fcekf -M 10
 </p>
 
 ## 📞 Contact
-**SpaceSim-Toolkit** is currently maintained by João Marafuz Gaspar ([joao.marafuz.gaspar@tecnico.ulisboa.pt](mailto:joao.marafuz.gaspar@tecnico.ulisboa.pt)).
+**spacesim-toolkit** is currently maintained by João Marafuz Gaspar ([joao.marafuz.gaspar@tecnico.ulisboa.pt](mailto:joao.marafuz.gaspar@tecnico.ulisboa.pt)).
 
 ## 💥 References
-<a id="ref-1">[1]</a> J. Marafuz Gaspar. *Decentralized estimator for dynamical multi-agent systems with an application to LEO satellite formations*. Master's thesis, Instituto Superior Técnico, University of Lisbon,
+<a id="ref-1">[1]</a> J. Marafuz Gaspar. *Decentralized estimator for dynamical multi-agent systems with an application to onboard localization of LEO satellite formations*. Master's thesis, Instituto Superior Técnico, University of Lisbon,
 2025. [online] Available [here](https://scholar.tecnico.ulisboa.pt/records/y9bKGa4tgKYVZ6Z6T7yLt-jjeGr21ssJVQrr).
 
 <a id="ref-2">[2]</a> G. Battistelli and L. Chisci. *Stability of consensus extended Kalman filter for distributed state estimation*. Automatica, 68:169–178, 2016.
